@@ -16,6 +16,25 @@ namespace C_Review
             } else {
                 Console.WriteLine("X is greater than thirty");
             }
+
+            int a = 3;
+            Console.WriteLine("In Case Statement");
+            switch (a) {
+                
+                case 1 :
+                    Console.WriteLine("Value is 1!");
+                    break;
+                case 2 : 
+                    Console.WriteLine("Value is 2!");
+                    break;
+                case 3 :
+                    Console.WriteLine("Value is 3!");
+                    break;
+                default:
+                    Console.WriteLine("Wetin you enter");
+                    break;
+
+            }
         }
     }
 }
